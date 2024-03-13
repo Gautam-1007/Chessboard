@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .container{
+            height: 640px;
+            width: 640px;
+            border: 2px solid black;
+            position: relative;
+            left: 25%;
+        }
+        .container div{
+            width: 80px;
+            height: 80px;
+            position: absolute;
+        }
+        .box1{
+            background-color: black;
+        }
+        .box2{
+            left: 80px;
+        }
+        .box3{
+            background-color: black;
+            left: 160px;
+        }
+        .box4{
+            left: 240px;
+        }
+        .box5{
+            background-color: black;
+            left: 320px;
+        }
+        .box6{
+            left: 400px;
+        }
+        .box7{
+            background-color: black;
+            left: 480px;
+        }
+        .box8{
+            left: 560px;
+        }
+        .box9{
+            top: 80px;
+        }
+        .box10{
+            background-color: black;
+            top: 80px;
+            left: 80px;
+        }
+        .box11{
+            left: 160px;
+            top: 80px;
+        }
+        .box12{
+            background-color: black;
+            left: 240px;
+            top: 80px;
+        }
+        .box13{
+            left: 320px;
+            top: 80px;
+        }
+        .box14{
+            background-color: black;
+            left: 400px;
+            top: 80px;
+        }
+        .box15{
+            top: 80px;
+            left: 480px;
+        }
+        .box16{
+            background-color: black;
+            top: 80px;
+            left: 560px;
+        }
+        .box17{
+            background-color: black;
+            top: 160px;
+        }
+        .box18{
+            left: 80px;
+            top: 160px;
+        }
+        .box19{
+            background-color: black;
+            left: 160px;
+            top: 160px;
+        }
+        .box20{
+            left: 240px;
+            top: 160px;
+        }
+        .box21{
+            background-color: black;
+            left: 320px;
+            top: 160px;
+        }
+        .box22{
+            left: 400px;
+            top: 160px;
+        }
+        .box23{
+            background-color: black;
+            left: 480px;
+            top: 160px;
+        }
+        .box24{
+            left: 560px;
+            top: 160px;
+        }
+        .box25{
+            top: 240px;
+        }
+        .box26{
+            background-color: black;
+            top: 240px;
+            left: 80px;
+        }
+        .box27{
+            left: 160px;
+            top: 240px;
+        }
+        .box28{
+            background-color: black;
+            left: 240px;
+            top: 240px;
+        }
+        .box29{
+            left: 320px;
+            top: 240px;
+        }
+        .box30{
+            background-color: black;
+            left: 400px;
+            top: 240px;
+        }
+        .box31{
+            top: 240px;
+            left: 480px;
+        }
+        .box32{
+            background-color: black;
+            top: 240px;
+            left: 560px;
+        }
+        /* Bottom */
+        .box33{
+            background-color: black;
+            bottom: 240px;
+        }
+        .box34{
+            bottom: 240px;
+            left: 80px;
+        }
+        .box35{
+            background-color: black;
+            bottom: 240px;
+            left: 160px;
+        }
+        .box36{
+            bottom: 240px;
+            left: 240px;
+        }
+        .box37{
+            background-color: black;
+            bottom: 240px;
+            left: 320px;
+        }
+        .box38{
+            bottom: 240px;
+            left: 400px;
+        }
+        .box39{
+            background-color: black;
+            bottom: 240px;
+            left: 480px;
+        }
+        .box40{
+            bottom: 240px;
+            left: 560px;
+        }
+        .box41{
+            bottom: 160px;
+            left: 0;
+        }
+        .box42{
+            background-color: black;
+            bottom: 160px;
+            left: 80px;
+        }
+        .box43{
+            bottom: 160px;
+            left: 160px;            
+        }
+        .box44{
+            background-color: black;
+            bottom: 160px;
+            left: 240px;
+        }
+        .box45{
+            bottom: 160px;
+            left: 320px;
+        }
+        .box46{
+            background-color: black;
+            bottom: 160px;
+            left: 400px;
+        }
+        .box47{
+            bottom: 160px;
+            left: 480px;
+        }
+        .box48{
+            background-color: black;
+            bottom: 160px;
+            left: 560px;
+        }
+        .box49{
+            background-color: black;
+            bottom: 80px;
+        }
+        .box50{
+            bottom: 80px;
+            left: 80px;
+        }
+        .box51{
+            background-color: black;
+            bottom: 80px;
+            left: 160px;
+        }
+        .box52{
+            bottom: 80px;
+            left: 240px;
+        }
+        .box53{
+            background-color: black;
+            bottom: 80px;
+            left: 320px;
+        }
+        .box54{
+            bottom: 80px;
+            left: 400px;
+        }
+        .box55{
+            background-color: black;
+            bottom: 80px;
+            left: 480px;
+        }
+        .box56{
+            bottom: 80px;
+            left: 560px;
+        }
+        .box57{
+            bottom: 0;
+            left: 0;
+        }
+        .box58{
+            background-color: black;
+            bottom: 0;
+            left: 80px;
+        }
+        .box59{
+            bottom: 0;
+            left: 160px;            
+        }
+        .box60{
+            background-color: black;
+            bottom: 0;
+            left: 240px;
+        }
+        .box61{
+            bottom: 0;
+            left: 320px;
+        }
+        .box62{
+            background-color: black;
+            bottom: 0;
+            left: 400px;
+        }
+        .box63{
+            bottom: 0;
+            left: 480px;
+        }
+        .box64{
+            background-color: black;
+            bottom: 0;
+            left: 560px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+        <div class="box5"></div>
+        <div class="box6"></div>
+        <div class="box7"></div>
+        <div class="box8"></div>
+        <div class="box9"></div>
+        <div class="box10"></div>
+        <div class="box11"></div>
+        <div class="box12"></div>
+        <div class="box13"></div>
+        <div class="box14"></div>
+        <div class="box15"></div>
+        <div class="box16"></div>
+        <div class="box17"></div>
+        <div class="box18"></div>
+        <div class="box19"></div>
+        <div class="box20"></div>
+        <div class="box21"></div>
+        <div class="box22"></div>
+        <div class="box23"></div>
+        <div class="box24"></div>
+        <div class="box25"></div>
+        <div class="box26"></div>
+        <div class="box27"></div>
+        <div class="box28"></div>
+        <div class="box29"></div>
+        <div class="box30"></div>
+        <div class="box31"></div>
+        <div class="box32"></div>
+        <!-- Bottom -->
+        <div class="box33"></div>
+        <div class="box34"></div>
+        <div class="box35"></div>
+        <div class="box36"></div>
+        <div class="box37"></div>
+        <div class="box38"></div>
+        <div class="box39"></div>
+        <div class="box40"></div>
+        <div class="box41"></div>
+        <div class="box42"></div>
+        <div class="box43"></div>
+        <div class="box44"></div>
+        <div class="box45"></div>
+        <div class="box46"></div>
+        <div class="box47"></div>
+        <div class="box48"></div>
+        <div class="box49"></div>
+        <div class="box50"></div>
+        <div class="box51"></div>
+        <div class="box52"></div>
+        <div class="box53"></div>
+        <div class="box54"></div>
+        <div class="box55"></div>
+        <div class="box56"></div>
+        <div class="box57"></div>
+        <div class="box58"></div>
+        <div class="box59"></div>
+        <div class="box60"></div>
+        <div class="box61"></div>
+        <div class="box62"></div>
+        <div class="box63"></div>
+        <div class="box64"></div>
+    </div>
+</body>
+</html>
